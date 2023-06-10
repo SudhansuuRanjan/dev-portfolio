@@ -5,6 +5,9 @@ import { FaGlobeAfrica, FaGithub } from 'react-icons/fa'
 const Projectcard = () => {
     return (
         <div className='bg-[linear-gradient(180deg,rgba(35,37,49,.5),rgba(15,15,24,.5));] lg:w-fit md:w-fit w-[100%]  h-[30rem] border border-gray-700 rounded-[3rem] flex items-center lg:p-10 md:p-10 p-6'>
+            <div className="">
+                01
+            </div>
             <div className="lg:mr-8 md:mr-8 mr-4">
                 <h1 style={{
                     writingMode: "vertical-rl", textOrientation: "mixed"
