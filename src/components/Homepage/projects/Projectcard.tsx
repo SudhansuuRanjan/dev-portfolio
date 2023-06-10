@@ -2,13 +2,17 @@ import Image from "next/image"
 import Link from "next/link"
 import { FaGlobeAfrica, FaGithub } from 'react-icons/fa'
 
-const Projectcard = () => {
+type projetProp = {
+    id:string
+}
+
+const Projectcard = ({id}:projetProp) => {
     return (
-        <div className='bg-[linear-gradient(180deg,rgba(35,37,49,.5),rgba(15,15,24,.5));] lg:w-fit md:w-fit w-[100%]  h-[30rem] border border-gray-700 rounded-[3rem] flex items-center lg:p-10 md:p-10 p-6'>
-            <div className="">
-                01
-            </div>
-            <div className="lg:mr-8 md:mr-8 mr-4">
+        <div className='relative bg-[linear-gradient(180deg,rgba(35,37,49,.5),rgba(15,15,24,.5));] lg:w-fit md:w-fit w-[100%]  h-[30rem] border border-gray-700 rounded-[3rem] flex items-center lg:p-10 md:p-10 p-6'>
+            <h1 className="text-[10rem] z-20 absolute left-[-3rem] top-[-5rem] text-transparent font-bold font-outline-2">
+                0{id}
+            </h1>
+            <div className="lg:mr-8 md:mr-8 mr-4 z-30">
                 <h1 style={{
                     writingMode: "vertical-rl", textOrientation: "mixed"
                 }} className='text-sm h-full rotate-180  text-center text-gray-500'>NEXT JS, LOCOMOTIVE SCROLL, PRISMA</h1>
