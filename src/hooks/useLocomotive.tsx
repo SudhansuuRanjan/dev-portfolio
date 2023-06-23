@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import LocomotiveScroll, { InstanceOptions } from "locomotive-scroll";
 
 type useLocomotiveScrollHook = [LocomotiveScroll | null];
@@ -18,11 +18,12 @@ const useLocomotive = ({ ref, ...options }: Props): useLocomotiveScrollHook => {
         const LocomotiveModuleDefault = locomotiveModule.default;
 
         scroll = new LocomotiveModuleDefault({
+          // @ts-ignore
           el: ref.current,
           smooth: true,
-          lerp:0.05,
-          inertia: 0.8,
-          multiplier: 1,
+          lerp: 0.05,
+          inertia: 0.5,
+          multiplier: 0.75,
           smartphone: {
             smooth: true,
           },
