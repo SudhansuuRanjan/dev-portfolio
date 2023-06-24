@@ -1,6 +1,6 @@
 "use client";
-import { useRef, useEffect } from 'react';
-import useLocomotive from '@/hooks/useLocomotive';
+import React, { useRef, useEffect } from 'react';
+// import useLocomotive from '@/hooks/useLocomotive';
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import Hero from '@/components/Homepage/Hero'
@@ -12,7 +12,7 @@ import Contact from '@/components/Homepage/Contact';
 const locomotiveScroll =
   typeof window !== `undefined` ? require("locomotive-scroll").default : null;
 
-export default function Home() {
+export default function Home(): React.JSX.Element {
 
   const scrollRef = useRef<HTMLDivElement | null>(null);
 
@@ -46,14 +46,9 @@ export default function Home() {
 
     // update locomotive scroll
     window.addEventListener("load", () => {
-      let image = document.querySelector("img");
-      // @ts-ignore
-      const isLoaded = image!.complete && image!.naturalHeight !== 0;
       lscroll.update();
     });
   })
-
-
 
 
   return (

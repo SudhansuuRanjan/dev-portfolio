@@ -1,12 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   .font-outline-2 {
     -webkit-text-stroke: 1px rgb(170, 170, 170);
   }
   .font-outline-4 {
     -webkit-text-stroke: 2px rgb(255, 255, 255);
+  }
+
+  .font-outline-white {
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   }
 }
 
@@ -36,4 +41,53 @@ body {
       rgb(var(--background-end-rgb))
     )
     #10101a;
+}
+
+.nav-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: url("https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/4iN-LAzqAdE/upload/8491114c3ac15ca04606ee141e1fd598.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp");
+}
+
+.custom-button {
+  width: 12rem;
+  height: 3rem;
+  background-color: rgb(47, 48, 64);
+  position: relative;
+  color: white;
+  font-weight: bold;
+  text-align:center;
+  line-height:3rem;
+  font-family: sans-serif;
+  font-size:1.2rem;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+  background-color: rgb(35, 33, 44);
+  color: skyblue;
+}
+
+.custom-button:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 0;
+  height: 0;
+  border-top: 1.3rem solid #10101a;
+  border-right: 1.3rem solid transparent;
+}
+
+.custom-button:after {
+  content: '';
+  position: absolute;
+  bottom:0;
+  right:0;
+  width: 0;
+  height: 0;
+  border-bottom: 1.3rem solid #10101a;
+  border-left: 1.3rem solid transparent;
 }

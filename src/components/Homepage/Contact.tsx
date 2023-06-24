@@ -31,7 +31,7 @@ const SocialLink = ({ link, text, icon }: LinkProp) => {
                 <div>
                     {icon}
                 </div>
-                <div className='border-b tracking-wider transition-all ease-in-out delay-[30ms] hover:text-gray-500 border-pink-600 w-[40%] hover:w-full'>
+                <div className='border-b font-bold font-["Segoe UI"] font tracking-wider transition-all ease-in-out delay-[30ms] hover:text-gray-500 border-pink-600 w-[40%] hover:w-full'>
                     {text}
                 </div>
             </div>

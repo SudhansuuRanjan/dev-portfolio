@@ -3,7 +3,7 @@ import Heading from '../Heading'
 
 const About = () => {
   return (
-    <div className='w-full'>
+    <div className=''>
       <Heading heading='About me' emoji="🧑🏼‍💻" desc='More about me' />
 
       <p className='lg:w-[34rem] w-auto text-gray-300'>

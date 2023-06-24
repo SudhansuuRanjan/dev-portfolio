@@ -1,6 +1,7 @@
 import React from 'react'
 import Heading from '@/components/Heading'
 import BlogCard from './BlogCard'
+import Link from 'next/link'
 
 const Blogs = () => {
 
@@ -30,6 +31,13 @@ const Blogs = () => {
                         <BlogCard title={blog.title} id={blog.id} key={blog.id} image={blog.image} link={blog.link} />
                     ))
                 }
+            </div>
+            <div className='flex items-center justify-center'>
+                <Link href="/blogs">
+                    <button className='custom-button m-auto'>
+                        View All
+                    </button>
+                </Link>
             </div>
         </div>
     )
