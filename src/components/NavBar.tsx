@@ -12,7 +12,7 @@ const NavBar = () => {
 
     return (
         <>
-            <div className='fixed w-[90%] z-[7684358]'>
+            <div className='fixed w-[90%] z-[769]'>
                 <div className='flex self-center justify-between items-center lg:w-[55%] md:w-[80%]  m-auto rounded-3xl px-5 py-5 border-[2px] border-gray-800 bg-slate-800 bg-opacity-50 backdrop-blur-lg'>
                     <Link className='flex items-center gap-2' href="/">
                         <Image className='h-6 w-6' height={300} width={300} alt="logo" src="/images/s.png" />
@@ -39,7 +39,7 @@ const NavBar = () => {
             <nav style={{
                 transform: open ? 'translateX(0%)' : 'translateX(-100%)',
                 transition: 'transform 0.6s ease-in-out',
-            }} className="bg-[#141421] fixed inset-0 w-full opa h-screen z-[7688] flex justify-evenly items-center">
+            }} className="bg-[#141421] fixed inset-0 w-full opa h-screen z-[768] flex justify-evenly items-center">
                 <div className="flex flex-col gap-16">
                     <div className='text-6xl font-bold'>
                         <Link href="/" onClick={() => setOpen(!open)} className='text-transparent font-bold font-outline-white hover:text-white cursor-pointer'>Home</Link>

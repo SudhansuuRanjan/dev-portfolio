@@ -1,6 +1,8 @@
+"use client"
 import './globals.css'
 import './locomotive.css'
 import { Inter } from 'next/font/google'
+import AnimatedCursor from "react-animated-cursor"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,7 +33,19 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <AnimatedCursor
+        innerSize={10}
+        outerSize={42}
+        color='168, 85, 247'
+        innerScale={1.2}
+        outerScale={1.5}
+        outerStyle={{
+          border: '2px solid gray',
+          backgroundColor: 'transparent'
+        }} />
+        {children}
+      </body>
     </html>
   )
 }
