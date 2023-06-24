@@ -7,8 +7,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Sudhanshu Ranjan 😎',
   description: 'I am a full stack developer. I love to build things that make a difference.',
-  url: 'https://sudhanshur.vercel.app/',
-  image: '/images/portfolio.png',
   keywords: [
     'Sudhanshu Ranjan',
     'Sudhanshu',
@@ -21,12 +19,8 @@ export const metadata = {
     'Sudhanshu Ranjan Full Stack Developer Website',
     'Sudhanshu Ranjan Full Stack Developer Website Portfolio',
     ],
-  social: {
-    twitter: 'https://twitter.com/Sudhanss_u',
-    github: 'https://github.com/SudhansuuRanjan',
-    linkedin: 'https://www.linkedin.com/in/sudhanshu-ranjan-a1779b202/',
-    instagram: 'https://instagram.com/sudhanss_uu',
-  }
+    themeColor: '#000000',
+    siteUrl: 'https://sudhanshu-ranjan.vercel.app/',
 }
 
 export default function RootLayout({
