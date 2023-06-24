@@ -62,7 +62,7 @@ const Project = (): React.JSX.Element => {
       </div>
 
       <div className='flex items-center justify-center'>
-        <Link href="/projects">
+        <Link  href="/projects">
           <button className='custom-button m-auto'>
             View All
           </button>

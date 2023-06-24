@@ -12,7 +12,7 @@ const Hero = () => {
       </div>
 
       <div className="flex gap-5 items-center my-10">
-        <Link className={oswald.className} href="/cv"><div className="font-medium text-lg text-gray-300 hover:text-gray-400 border-b transition-all ease-in-out delay-[30ms] border-pink-400 w-[65%] hover:w-full">RESUME</div></Link>
+        <Link className={oswald.className} target="_blank" href="/Resume.pdf"><div className="font-medium text-lg text-gray-300 hover:text-gray-400 border-b transition-all ease-in-out delay-[30ms] border-pink-400 w-[65%] hover:w-full">RESUME</div></Link>
         <Link className={oswald.className} href="/projects"><div className="font-medium text-lg text-gray-300 hover:text-gray-400 border-b transition-all ease-in-out delay-[30ms] border-sky-400 w-[65%] hover:w-full">PROJECTS</div></Link>
       </div>
     </>

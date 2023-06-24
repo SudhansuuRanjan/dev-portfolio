@@ -41,14 +41,14 @@ const Projectcard = ({ id, title, tags, desc, img, link, github, readme }: projc
 
 
                 <div className="flex justify-between my-6">
-                    <Link className={oswald.className} href={readme}><div className="font-medium text-lg text-gray-400 border-b transition-all ease-in-out delay-[30ms] border-gray-400 w-[65%] hover:w-full">DETAILS</div></Link>
+                    <Link target="_blank" className={oswald.className} href={readme}><div className="font-medium text-lg text-gray-400 border-b transition-all ease-in-out delay-[30ms] border-gray-400 w-[65%] hover:w-full">DETAILS</div></Link>
                     <div className="flex gap-3">
-                        <Link href={link}>
+                        <Link target="_blank" href={link}>
                             <div className="font-medium text-lg text-gray-400 transition-all ease-in-out delay-[30ms] hover:text-gray-500 ">
                                 <FaGlobeAfrica size={22} />
                             </div>
                         </Link>
-                        <Link href={github}>
+                        <Link target="_blank" href={github}>
                             <div className="font-medium text-lg text-gray-400 hover:text-gray-500 transition-all ease-in-out delay-[30ms] ">
                                 <FaGithub size={22} />
                             </div>
