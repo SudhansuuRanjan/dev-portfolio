@@ -38,9 +38,9 @@ const NavBar = () => {
                         <Link href="/blogs" onClick={() => setOpen(!open)} className='text-transparent font-bold font-outline-white hover:text-white cursor-pointer'>Blogs</Link>
                     </div>
                 </div>
-                <div className='flex flex-col items-center justify-center gap-28'>
+                <div className='lg:flex md:flex hidden flex-col items-center justify-center gap-28'>
                     <div className='text-center'>
-                        <h2 className='text-xl text-gray-400 font-medium mb-5'> DON'T BE A STRANGER</h2>
+                        <h2 className='text-xl text-gray-400 font-medium mb-5'> DON&apos;T BE A STRANGER</h2>
                         <div className='flex gap-4 text-2xl font-bold'>
                             <Link className='text-sky-400 hover:text-white' href="/">👾 GH</Link>
                             <Link className='text-sky-400 hover:text-white' href="/">🐦 TW</Link>
