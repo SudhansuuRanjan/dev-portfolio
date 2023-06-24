@@ -94,8 +94,8 @@ export default function Home(): React.JSX.Element {
         {
             id: "05",
             title: 'T.E.S.L.A CLUB',
-            desc:"A website for the Tesla Club of NIT, Patna. It's a club for the students who are interested in the field of Electrical Engg. and blockchain.",
-            img: '/images/tesla.png',   
+            desc: "A website for the Tesla Club of NIT, Patna. It's a club for the students who are interested in the field of Electrical Engg. and blockchain.",
+            img: '/images/tesla.png',
             link: 'https://tesla-nitp.vercel.app/',
             tags: ['REACTJS', 'TAILWINDCSS', "FIREBASE"],
             github: 'https://github.com/SudhansuuRanjan/tesla-nitp-web',
@@ -104,7 +104,7 @@ export default function Home(): React.JSX.Element {
         {
             id: "06",
             title: 'TRUST MARKET',
-            desc:"A decentralized marketplace for datasets, where data providers can sell their data and data consumers can buy them.",
+            desc: "A decentralized marketplace for datasets, where data providers can sell their data and data consumers can buy them.",
             img: '/images/trustmarket.png',
             link: 'https://trust-market.vercel.app/',
             tags: ['REACTJS', 'TAILWINDCSS', "SOLIDITY", "IPFS", "METAMASK"],
@@ -114,7 +114,7 @@ export default function Home(): React.JSX.Element {
         {
             id: "07",
             title: 'CESC NITP',
-            desc:"A website for the American Society of Civil Engineers Student Chapter of NIT Patna.",
+            desc: "A website for the American Society of Civil Engineers Student Chapter of NIT Patna.",
             img: '/images/cesc.png',
             link: 'http://cescofficialweb.vercel.app/',
             tags: ['REACTJS', 'SCSS', "SANITY CMS"],
@@ -124,7 +124,7 @@ export default function Home(): React.JSX.Element {
         {
             id: "08",
             title: 'MY PORTFOLIO',
-            desc:"My portfolio website built with NextJS and TailwindCSS.",
+            desc: "My portfolio website built with NextJS and TailwindCSS.",
             img: '/images/portfolio.png',
             link: 'https://sudhanshur.vercel.app/',
             tags: ['NEXTJS', 'TAILWINDCSS', "LOCOMOTIVE SCROLL"],
@@ -134,17 +134,17 @@ export default function Home(): React.JSX.Element {
         {
             id: "09",
             title: 'ALUMNI CELL NITP',
-            desc:"Official alumni portal of NIT Patna. It is a platform for the alumni to connect with their alma mater.",
+            desc: "Official alumni portal of NIT Patna. It is a platform for the alumni to connect with their alma mater.",
             img: '/images/alumni.png',
             link: 'https://alumini-nitp.vercel.app/',
             tags: ['REACTJS', 'TAILWINDCSS', "FIREBASE"],
             github: 'https://github.com/SudhansuuRanjan/alumini-cell-nitp/tree/main',
-            readme: 'https://github.com/SudhansuuRanjan/alumini-cell-nitp/tree/main#readme',     
+            readme: 'https://github.com/SudhansuuRanjan/alumini-cell-nitp/tree/main#readme',
         },
         {
             id: "10",
             title: 'ROBOTICS CLUB NITP',
-            desc:"Official website of Robotics Club NIT Patna. It is a platform for the students to connect with the club.",
+            desc: "Official website of Robotics Club NIT Patna. It is a platform for the students to connect with the club.",
             img: '/images/robotics.png',
             link: 'https://roboticsnitp.co.in/',
             tags: ['REACTJS', 'CSS', "SANITY CMS"],
@@ -154,7 +154,7 @@ export default function Home(): React.JSX.Element {
         {
             id: "11",
             title: 'HACKNITP 4.0',
-            desc:"Official website of HackNITP 4.0. It is a 36-hour online hackaton and the biggest hackathon of Bihar Region.",
+            desc: "Official website of HackNITP 4.0. It is a 36-hour online hackaton and the biggest hackathon of Bihar Region.",
             img: '/images/hacknitp.png',
             link: 'https://hacknitp4-0-two.vercel.app/',
             tags: ['REACTJS', 'CSS'],
@@ -164,7 +164,7 @@ export default function Home(): React.JSX.Element {
         {
             id: "12",
             title: 'HACKARUTO',
-            desc:"A website for the Hackaruto. It is an opensource hackclub.",
+            desc: "A website for the Hackaruto. It is an opensource hackclub.",
             img: '/images/hackaruto.png',
             link: 'https://hackaruto.netlify.app/',
             tags: ['REACTJS', 'SCSS'],
