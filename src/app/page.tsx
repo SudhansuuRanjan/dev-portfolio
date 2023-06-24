@@ -1,6 +1,5 @@
 "use client";
 import React, { useRef, useEffect } from 'react';
-// import useLocomotive from '@/hooks/useLocomotive';
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import Hero from '@/components/Homepage/Hero'
@@ -9,8 +8,7 @@ import Project from '@/components/Homepage/projects/Project';
 import Skills from '@/components/Homepage/skills/Skills';
 import Blogs from '@/components/Homepage/blogs/Blogs';
 import Contact from '@/components/Homepage/Contact';
-const locomotiveScroll =
-  typeof window !== `undefined` ? require("locomotive-scroll").default : null;
+const locomotiveScroll = typeof window !== `undefined` ? require("locomotive-scroll").default : null;
 
 export default function Home(): React.JSX.Element {
   const scrollRef = useRef<HTMLDivElement | null>(null);
@@ -59,7 +57,7 @@ export default function Home(): React.JSX.Element {
 
 
   return (
-    <div className="min-h-screen subpixel-antialiased w-full py-10 relative lg:px-24 md:px-16 px-6">
+    <div className="subpixel-antialiased w-full py-10 relative lg:px-24 md:px-16 px-6">
       <NavBar />
       <div data-scroll-container ref={scrollRef} className='is-reveal pt-36 pb-16 z-0 m-auto lg:w-[58rem] md:w-[90%]'>
         <Hero />
