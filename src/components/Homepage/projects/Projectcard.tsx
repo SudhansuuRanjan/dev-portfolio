@@ -1,6 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 import { FaGlobeAfrica, FaGithub } from 'react-icons/fa'
+import { Oswald } from 'next/font/google'
+const oswald = Oswald({ subsets: ['latin'] })
 
 type projetProp = {
     id:string
@@ -20,7 +22,7 @@ const Projectcard = ({id}:projetProp) => {
             <div className="h-fit">
                 <div className="flex flex-col items-end">
                     <Image className="rounded-3xl lg:w-[24rem] md:w-[20rem] w-[18rem]" src='/images/Kaizen-banner.png' width={700} height={350} alt="KAIZEN" />
-                    <h3 className="my-5 text-3xl font-bold text-right">KAIZEN 2023</h3>
+                    <h3 className="my-5 text-3xl font-bold text-right"><span className={oswald.className}>KAIZEN 2023</span></h3>
                     <p className="text-slate-400 lg:w-[24rem] md:w-[24rem] w-auto text-right">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quisquam voluptatibus.
                     </p>
@@ -28,7 +30,7 @@ const Projectcard = ({id}:projetProp) => {
 
 
                 <div className="flex justify-between my-6">
-                    <Link href="/cv"><div className="font-medium text-lg text-gray-400 border-b transition-all ease-in-out delay-[30ms] border-gray-400 w-[65%] hover:w-full">DETAILS</div></Link>
+                    <Link className={oswald.className} href="/cv"><div className="font-medium text-lg text-gray-400 border-b transition-all ease-in-out delay-[30ms] border-gray-400 w-[65%] hover:w-full">DETAILS</div></Link>
                     <div className="flex gap-3">
                         <Link href="/cv">
                             <div className="font-medium text-lg text-gray-400 transition-all ease-in-out delay-[30ms] hover:text-gray-500 ">

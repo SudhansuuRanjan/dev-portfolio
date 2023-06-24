@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@700;800;900&display=swap');
+
 @layer base {
   .font-outline-2 {
     -webkit-text-stroke: 1px rgb(170, 170, 170);

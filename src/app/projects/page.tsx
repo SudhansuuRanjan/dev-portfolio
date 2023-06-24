@@ -7,33 +7,48 @@ const locomotiveScroll =
 
 export default function Home(): React.JSX.Element {
     const scrollRef = useRef<HTMLDivElement | null>(null);
-    let lscroll: any;
+    const lscrollRef = useRef<any>(null); // Create a ref to store lscroll
 
     useEffect(() => {
-        if (!scrollRef.current) return;
+        let lscroll: any; // Declare lscroll inside the useEffect hook
 
-        // @ts-ignore
-        lscroll = new locomotiveScroll({
-            el: scrollRef.current,
-            smooth: true,
-            reloadOnContextChange: true,
-            multiplier: 0.75,
-            inertia: 0.5,
-            lerp: 0.05,
-            smartphone: {
-                smooth: true,
-            },
-            tablet: {
-                smooth: true,
-                breakpoint: 1024,
-            },
-        });
+        const initializeScroll = () => {
+            if (!scrollRef.current) return;
 
-        // update locomotive scroll
-        window.addEventListener("load", () => {
-            lscroll.update();
-        });
-    },[])
+            lscroll = new locomotiveScroll({
+                el: scrollRef.current,
+                smooth: true,
+                reloadOnContextChange: true,
+                multiplier: 0.75,
+                inertia: 0.5,
+                lerp: 0.05,
+                smartphone: {
+                    smooth: true,
+                },
+                tablet: {
+                    smooth: true,
+                    breakpoint: 1024,
+                },
+            });
+
+            // update locomotive scroll
+            window.addEventListener("load", () => {
+                lscroll.update();
+            });
+
+            lscrollRef.current = lscroll; // Assign lscroll to the ref
+        };
+
+        initializeScroll();
+
+        return () => {
+            // Clean up the scroll instance when the component unmounts
+            if (lscrollRef.current) {
+                lscrollRef.current.destroy();
+                lscrollRef.current = null;
+            }
+        };
+    }, []);
 
 
     return (
