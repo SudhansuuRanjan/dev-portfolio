@@ -15,7 +15,7 @@ const NavBar = () => {
             <div className='fixed w-[90%] z-[7684358]'>
                 <div className='flex self-center justify-between items-center lg:w-[55%] md:w-[80%]  m-auto rounded-3xl px-5 py-5 border-[2px] border-gray-800 bg-slate-800 bg-opacity-50 backdrop-blur-lg'>
                     <Link className='flex items-center gap-2' href="/">
-                        <Image className='h-6 w-6' height={300} width={300} alt="logo" src="https://www.adeolaadeoti.xyz/svg/adeola-logo-left.svg" />
+                        <Image className='h-6 w-6' height={300} width={300} alt="logo" src="/images/s.png" />
                         <p className='text-gray-300'>
                             <span className={oswald.className}>SUDHANSHU</span>
                         </p>
