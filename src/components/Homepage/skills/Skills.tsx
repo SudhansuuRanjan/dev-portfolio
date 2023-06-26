@@ -11,7 +11,7 @@ const Skills = (): React.JSX.Element => {
         <div >
             <Heading heading='My Skills & Expertize' emoji="🛠️" desc='The main area of expertise is front end development (client side of the web).' />
 
-            <div className='m-auto flex my-16 flex-wrap items-center justify-center gap-6 max-w-[70%]'>
+            <div className='m-auto flex my-16 flex-wrap items-center justify-center gap-6 lg:max-w-[70%] md::max-w-[80%] max-w-[90%]'>
                 <Skill icon={<AiFillHtml5 size={56} />} name="HTML" />
                 <Skill icon={<IoLogoCss3 size={56} />} name="CSS" />
                 <Skill icon={<IoLogoJavascript size={56} />} name="JavaScript" />

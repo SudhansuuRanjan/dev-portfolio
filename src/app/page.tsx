@@ -8,6 +8,7 @@ import Project from '@/components/Homepage/projects/Project';
 import Skills from '@/components/Homepage/skills/Skills';
 import Blogs from '@/components/Homepage/blogs/Blogs';
 import Contact from '@/components/Homepage/Contact';
+import HireMe from '@/components/Homepage/hireme/HireMe';
 const locomotiveScroll = typeof window !== `undefined` ? require("locomotive-scroll").default : null;
 
 export default function Home(): React.JSX.Element {
@@ -29,6 +30,9 @@ export default function Home(): React.JSX.Element {
         lerp: 0.05,
         smartphone: {
           smooth: true,
+          multiplier: 1,
+          inertia: 0.5,
+          lerp: 0.1,
         },
         tablet: {
           smooth: true,
@@ -57,7 +61,7 @@ export default function Home(): React.JSX.Element {
 
 
   return (
-    <div className="subpixel-antialiased w-full py-10 relative lg:px-24 md:px-16 px-6">
+    <div className="subpixel-antialiased w-full lg:py-10 md:py-9 py-5 relative lg:px-24 md:px-16 px-5">
       <NavBar />
       <div data-scroll-container ref={scrollRef} className='is-reveal pt-36 pb-16 z-0 m-auto lg:w-[58rem] md:w-[90%]'>
         <Hero />
@@ -65,6 +69,7 @@ export default function Home(): React.JSX.Element {
         <Project />
         <Blogs />
         <Skills />
+        <HireMe/>
         <Contact />
         <Footer />
       </div>

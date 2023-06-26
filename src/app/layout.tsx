@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Sudhanshu Ranjan 😎',
   description: 'I am a full stack developer. I love to build things that make a difference.',
+  metadataBase: new URL('https://sudhanshur.vercel.app/'),
   keywords: [
     'Sudhanshu Ranjan',
     'Sudhanshu',
@@ -19,9 +20,19 @@ export const metadata = {
     'Sudhanshu Ranjan Full Stack Developer Portfolio',
     'Sudhanshu Ranjan Full Stack Developer Website',
     'Sudhanshu Ranjan Full Stack Developer Website Portfolio',
-    ],
-    themeColor: '#000000',
-    siteUrl: 'https://sudhanshu-ranjan.vercel.app/',
+  ],
+  themeColor: '#000000',
+  siteUrl: 'https://sudhanshur.vercel.app',
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'en-in': '/en-IN',
+    },
+  },
+  openGraph: {
+    images: '/opengraph-image.png',
+  }
 }
 
 export default function RootLayout({
@@ -33,9 +44,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-       <AnimatedCursorComponent>
-        {children}
-       </AnimatedCursorComponent>
+        <AnimatedCursorComponent>
+          {children}
+        </AnimatedCursorComponent>
       </body>
     </html>
   )
