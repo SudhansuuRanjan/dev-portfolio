@@ -11,23 +11,23 @@ const Skills = (): React.JSX.Element => {
         <div >
             <Heading heading='My Skills & Expertize' emoji="🛠️" desc='The main area of expertise is front end development (client side of the web).' />
 
-            <div className='m-auto flex my-16 flex-wrap items-center justify-center gap-6 lg:max-w-[70%] md::max-w-[80%] max-w-[90%]'>
-                <Skill icon={<AiFillHtml5 size={56} />} name="HTML" />
-                <Skill icon={<IoLogoCss3 size={56} />} name="CSS" />
-                <Skill icon={<IoLogoJavascript size={56} />} name="JavaScript" />
-                <Skill icon={<FaReact size={56} />} name="ReactJs" />
-                <Skill icon={<TbBrandNextjs size={56} />} name="NextJs" />
-                <Skill icon={<SiSolidity size={56} />} name="Solidity" />
-                <Skill icon={<FaEthereum size={56} />} name="Ethereum" />
-                <Skill icon={<IoLogoNodejs size={56} />} name="NodeJs" />
-                <Skill icon={<SiExpress size={56} />} name="Express" />
-                <Skill icon={<SiFirebase size={56} />} name="Firebase" />
-                <Skill icon={<SiTailwindcss size={56} />} name="TailwindCSS" />
-                <Skill icon={<FaJava size={56} />} name="JAVA" />
-                <Skill icon={<TbBrandGraphql size={56} />} name="GraphQl" />
-                <Skill icon={<SiPostman size={56} />} name="Postman" />
-                <Skill icon={<FaFigma size={56} />} name="Figma" />
-                <Skill icon={<AiFillGithub size={56} />} name="Figma" />
+            <div className='m-auto flex my-16 flex-wrap items-center justify-center lg:gap-6 gap-5 lg:max-w-[70%] md::max-w-[80%] max-w-[90%]'>
+                <Skill icon={<AiFillHtml5 />} name="HTML" />
+                <Skill icon={<IoLogoCss3 />} name="CSS" />
+                <Skill icon={<IoLogoJavascript />} name="JavaScript" />
+                <Skill icon={<FaReact />} name="ReactJs" />
+                <Skill icon={<TbBrandNextjs />} name="NextJs" />
+                <Skill icon={<SiSolidity />} name="Solidity" />
+                <Skill icon={<FaEthereum />} name="Ethereum" />
+                <Skill icon={<IoLogoNodejs />} name="NodeJs" />
+                <Skill icon={<SiExpress />} name="Express" />
+                <Skill icon={<SiFirebase />} name="Firebase" />
+                <Skill icon={<SiTailwindcss />} name="TailwindCSS" />
+                <Skill icon={<FaJava />} name="JAVA" />
+                <Skill icon={<TbBrandGraphql />} name="GraphQl" />
+                <Skill icon={<SiPostman />} name="Postman" />
+                <Skill icon={<FaFigma />} name="Figma" />
+                <Skill icon={<AiFillGithub />} name="GitHub" />
             </div>
         </div>
     )
@@ -43,8 +43,8 @@ type TpSkill = {
 const Skill = ({ icon, name }: TpSkill): React.JSX.Element => {
     return (
         <div className='text-lg text-gray-300 flex flex-col items-center text-center'>
-            {icon}
-            <div className='text-sm text-gray-400'>{name}</div>
+            <div className='lg:text-5xl md:text-4xl text-3xl'>{icon}</div>
+            <div className='text-sm text-gray-400 mt-1'>{name}</div>
         </div>
     )
 }
