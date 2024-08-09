@@ -71,7 +71,7 @@ const NavBar = () => {
                         <div className={oswald.className}>
                             <p className='text-gray-400 text-lg font-medium mb-5'>HAVE AN IDEA?</p>
                         </div>
-                        <Link href="/">
+                        <Link href="mailto:ranja22n.sudhanshu@yahoo.com" target='_blank'>
                             <h3 className='text-5xl font-bold hover:text-purple-400'>
                                 Tell me about it
                             </h3>

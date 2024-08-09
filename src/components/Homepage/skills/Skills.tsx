@@ -5,6 +5,7 @@ import { FaReact, FaJava, FaFigma, FaEthereum } from 'react-icons/fa';
 import { IoLogoCss3, IoLogoJavascript, IoLogoNodejs } from 'react-icons/io'
 import { TbBrandNextjs, TbBrandGraphql } from 'react-icons/tb'
 import { SiExpress, SiTailwindcss, SiPostman, SiSolidity, SiFirebase } from 'react-icons/si'
+import { SiMongodb, SiPostgresql, SiOracle } from "react-icons/si";
 
 const Skills = (): React.JSX.Element => {
     return (
@@ -28,6 +29,9 @@ const Skills = (): React.JSX.Element => {
                 <Skill icon={<SiPostman />} name="Postman" />
                 <Skill icon={<FaFigma />} name="Figma" />
                 <Skill icon={<AiFillGithub />} name="GitHub" />
+                <Skill icon={<SiMongodb />} name="MongoDB" />
+                <Skill icon={<SiPostgresql />} name="PostgreSQL" />
+                <Skill icon={<SiOracle />} name="OCI" />
             </div>
         </div>
     )

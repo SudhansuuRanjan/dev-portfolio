@@ -8,43 +8,43 @@ const Project = (): React.JSX.Element => {
   const projects = [
     {
       id: "01",
-      title: 'KAIZEN 2023',
-      desc: 'Official event and admin portal for KAIZEN 2023, the annual cultural fest of AIIMS Patna.',
-      img: '/images/Kaizen-banner.png',
-      link: 'https://www.kaizenaiimspatna.com/',
-      tags: ['REACTJS', 'FIREBASE', 'TAILWIND CSS', 'SABPAISA'],
-      github: 'https://github.com/SudhansuuRanjan/kaizen',
-      readme: 'https://github.com/SudhansuuRanjan/kaizen#readme',
+      title: 'KAIZEN 2024',
+      desc: 'Official event and admin portal for KAIZEN 2024, the annual cultural fest of AIIMS Patna.',
+      img: '/images/Kaizen-banner.jpg',
+      link: 'https://kaizenaiims.com/',
+      tags: ['ReactJs', 'NodeJs', 'Express', 'Postgres', 'SabPaisa'],
+      github: 'https://github.com/SudhansuuRanjan/kaizen2024',
+      readme: 'https://github.com/SudhansuuRanjan/kaizen2024#readme',
     },
     {
       id: "02",
-      title: 'ANGELFACE',
-      desc: 'Is is an UI design built for web3 peeps who want to get started in web3 frontend and are looking for projects to get inspired to build on.',
-      img: '/images/angelface.png',
-      link: 'https://angelface.vercel.app/',
-      tags: ['REACTJS', 'REACT PARALLAX', 'TAILWIND', 'SNOWWALLET'],
-      github: 'https://github.com/SudhansuuRanjan/angelhack-project',
-      readme: 'https://github.com/SudhansuuRanjan/angelhack-project#readme',
+      title: 'NIT Patna, Alumni Portal',
+      desc: 'Official Alumni Portal for NIT Patna, One-stop portal for alumni of the NIT Patna.',
+      img: '/images/alumni-nitp.jpg',
+      link: 'https://alumini-nitp.vercel.app/',
+      tags: ['ReactJs', 'NodeJs', 'Express', 'Appwrite', 'TailwindCSS'],
+      github: 'https://github.com/Rishabh-25-code/alumini-cell-nitp',
+      readme: 'https://github.com/Rishabh-25-code/alumini-cell-nitp#readme',
     },
     {
       id: "03",
-      title: 'SPOTISTAT',
-      desc: 'A web app to get your Spotify stats and show them in a beautiful way.',
+      title: 'MixMe',
+      desc: 'A spotify client for users to view their Spotify listening history and statistics.',
       img: '/images/spotistat.png',
-      link: 'https://spotistat.vercel.app/',
-      tags: ['REACT', 'NODE/EXPRESS', 'TAILWIND','SPOTIFY API'],
-      github: 'https://github.com/SudhansuuRanjan/SpotiStat',
-      readme: 'https://github.com/SudhansuuRanjan/SpotiStat#readme',
+      link: 'https://mixme.vercel.app/',
+      tags: ['React', 'Node/Express', 'TailwindCSS', 'Spotify API'],
+      github: 'https://github.com/SudhansuuRanjan/mix.me',
+      readme: 'https://wiki.mutable.ai/SudhansuuRanjan/mix.me',
     },
     {
       id: "04",
-      title: 'CAMPUS CRATE',
-      desc: 'A (DAO) expertly designed to cultivate and expedite the ecosystem projects and ideas in the campuses.',
-      img: '/images/campuscrate.png',
-      link: 'https://campus-crate-kohl.vercel.app/',
-      tags: ['REACT', 'TAILWIND',"THIRDWEB", "NODE/EXPRESS", "IPFS","METAMASK"],
-      github: 'https://github.com/Harshkumar62367/CampusCrate',
-      readme: 'https://github.com/Harshkumar62367/CampusCrate#readme',
+      title: 'Tesla NITP',
+      desc: 'Official website of Tesla Club NIT Patna, A club for Electrical Engg. students.',
+      img: '/images/tesla.jpg',
+      link: 'https://tesla-nitp.vercel.app/',
+      tags: ['ReactJs', 'NodeJs', 'Express', 'Appwrite', 'TailwindCSS'],
+      github: 'https://github.com/SudhansuuRanjan/tesla-nitp-web',
+      readme: 'https://github.com/SudhansuuRanjan/tesla-nitp-web#readme',
     },
   ]
 
@@ -62,7 +62,7 @@ const Project = (): React.JSX.Element => {
       </div>
 
       <div className='flex items-center justify-center'>
-        <Link  href="/projects">
+        <Link href="/projects">
           <button className='custom-button m-auto'>
             View All
           </button>

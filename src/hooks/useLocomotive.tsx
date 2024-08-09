@@ -22,7 +22,7 @@ const useLocomotive = ({ ref, ...options }: Props): useLocomotiveScrollHook => {
           el: ref.current,
           smooth: true,
           lerp: 0.05,
-          inertia: 0.5,
+          inertia: 0.2,
           multiplier: 0.75,
           smartphone: {
             smooth: true,

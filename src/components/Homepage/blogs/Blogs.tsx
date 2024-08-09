@@ -17,9 +17,14 @@ const Blogs = () => {
             image: "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/4iN-LAzqAdE/upload/8491114c3ac15ca04606ee141e1fd598.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
             link: "https://sudhanshuranjanblogs.hashnode.dev/js-interview-ques-directory-mapping",
             id: "2",
+        },
+        {
+            title: "Oracle Interview Experience (On-Campus)",
+            image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1691046429941/a65b7643-50d5-4433-a3a7-890b854ce137.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+            link: "https://sudhanshuranjanblogs.hashnode.dev/oracle-interview-experience-on-campus",
+            id: "3",
         }
     ]
-
 
 
     return (

@@ -63,7 +63,10 @@ export default function Home(): React.JSX.Element {
   return (
     <div className="subpixel-antialiased w-full lg:py-10 md:py-9 py-5 relative lg:px-24 md:px-16 px-5">
       <NavBar />
-      <div data-scroll-container ref={scrollRef} className='is-reveal pt-36 pb-16 z-0 m-auto lg:w-[58rem] md:w-[90%]'>
+      <div 
+      // data-scroll-container 
+      // ref={scrollRef} 
+      className='is-reveal pt-36 z-0 m-auto lg:w-[58rem] md:w-[90%]'>
         <Hero />
         <About />
         <Project />

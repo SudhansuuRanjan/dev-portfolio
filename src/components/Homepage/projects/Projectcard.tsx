@@ -32,8 +32,12 @@ const Projectcard = ({ id, title, tags, desc, img, link, github, readme }: projc
             </div>
             <div className="h-fit">
                 <div className="flex flex-col items-end">
-                    <Image className="rounded-3xl lg:w-[24rem] md:w-[20rem] w-[18rem]" src={img} width={700} height={350} alt={title} />
-                    <h3 className="my-5 text-3xl font-bold text-right"><span className={oswald.className}>{title}</span></h3>
+                    <Link target="_blank" href={link}>
+                        <Image className="rounded-3xl lg:w-[24rem] md:w-[20rem] w-[18rem]" src={img} width={700} height={350} alt={title} />
+                    </Link>
+                    <Link target="_blank" href={link}>
+                        <h3 className="my-5 text-3xl font-bold text-right"><span className={oswald.className}>{title}</span></h3>
+                    </Link>
                     <p className="text-slate-400 lg:w-[24rem] md:w-[24rem] w-auto text-right">
                         {desc}
                     </p>

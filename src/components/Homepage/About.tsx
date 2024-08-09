@@ -7,7 +7,7 @@ const About = () => {
       <Heading heading='About me' emoji="🧑🏼‍💻" desc='More about me' />
 
       <p className='lg:w-[34rem] w-auto text-gray-300'>
-        Hello stranger! 👋, I am a self taught front end developer based in India with a passion for building digital services/stuff. I have a knack for all things building products, from planning and designing all the way to solving real-life problems with code.
+        Hello stranger! 👋, I am a self taught software developer at Oracle with a passion for building digital services/stuff. I have a knack for all things building products, from planning and designing all the way to solving real-life problems with code.
       </p>
 
       <p className='lg:w-[34rem] w-auto my-5 text-gray-300'>
