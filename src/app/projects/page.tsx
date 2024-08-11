@@ -1,5 +1,6 @@
 "use client";
 import React, { useRef, useEffect } from 'react';
+import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import Projectcard from '@/components/Homepage/projects/Projectcard';
 const locomotiveScroll =
@@ -161,7 +162,7 @@ export default function Home(): React.JSX.Element {
             github: 'https://github.com/SudhansuuRanjan/TrustMarket',
             readme: 'https://github.com/SudhansuuRanjan/TrustMarket#readme',
         },
-                {
+        {
             id: "12",
             title: 'HACKNITP 4.0',
             desc: "Official website of HackNITP 4.0. It is a 36-hour online hackaton and the biggest hackathon of Bihar Region.",
@@ -202,6 +203,7 @@ export default function Home(): React.JSX.Element {
                     }
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
