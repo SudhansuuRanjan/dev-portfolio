@@ -13,7 +13,7 @@ const NavBar = () => {
     return (
         <>
             <div className='fixed lg:top-10 md:top-8 top-6 w-[90%] m-auto z-[769]'>
-                <div className='flex self-center justify-between items-center lg:w-[55%] md:w-[80%]  m-auto rounded-3xl px-5 py-5 border-[2px] border-gray-800 bg-slate-800 bg-opacity-50 backdrop-blur-lg'>
+                <div className='flex self-center justify-between items-center lg:w-[55%] md:w-[80%] m-auto rounded-3xl p-3 px-5 border-[1.5px] border-gray-800 bg-slate-800 bg-opacity-50 backdrop-blur-lg'>
                     <Link className='flex items-center gap-2' href="/">
                         <Image className='h-6 w-6' height={300} width={300} alt="logo" src="/images/s.png" />
                         <p className='text-gray-300'>
@@ -21,8 +21,8 @@ const NavBar = () => {
                         </p>
                     </Link>
 
-                    <div onClick={() => setOpen(!open)} className='flex items-center gap-2 cursor-pointer'>
-                        <div className='text-gray-400'>
+                    <div onClick={() => setOpen(!open)} className='flex items-center gap-2 p-2 cursor-pointer'>
+                        <div className='text-gray-300'>
                             <span className={oswald.className}>
                                 {
                                     open ? "CLOSE" : "MENU"
@@ -42,13 +42,13 @@ const NavBar = () => {
             }} className="bg-[#141421] fixed inset-0 w-full opa h-screen z-[768] flex justify-evenly items-center">
                 <div className="flex flex-col gap-16">
                     <div className='lg:text-6xl md:text-6xl text-5xl font-bold'>
-                        <Link href="/" onClick={() => setOpen(!open)} className='text-transparent font-bold font-outline-white hover:text-white cursor-pointer'>Home</Link>
+                        <Link href="/" onClick={() => setOpen(!open)} className='text-transparent font-bold font-outline-white hover:text-purple-500 cursor-pointer'>Home</Link>
                     </div>
                     <div className='lg:text-6xl md:text-6xl text-5xl font-bold'>
-                        <Link href="/projects" onClick={() => setOpen(!open)} className='text-transparent font-bold font-outline-white hover:text-white cursor-pointer'>Projects</Link>
+                        <Link href="/projects" onClick={() => setOpen(!open)} className='text-transparent font-bold font-outline-white hover:text-purple-500 cursor-pointer'>Projects</Link>
                     </div>
                     <div className='lg:text-6xl md:text-6xl text-5xl font-bold'>
-                        <Link href="/blogs" onClick={() => setOpen(!open)} className='text-transparent font-bold font-outline-white hover:text-white cursor-pointer'>Blogs</Link>
+                        <Link href="/blogs" onClick={() => setOpen(!open)} className='text-transparent font-bold font-outline-white hover:text-purple-500 cursor-pointer'>Blogs</Link>
                     </div>
                 </div>
                 <div className='lg:flex md:flex hidden flex-col items-center justify-center gap-28'>
