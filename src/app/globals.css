@@ -77,7 +77,7 @@ body {
   left: 0;
   width: 0;
   height: 0;
-  border-top: 1.3rem solid #10101a;
+  border-top: 1.3rem solid #000000;
   border-right: 1.3rem solid transparent;
 }
 
@@ -88,6 +88,6 @@ body {
   right: 0;
   width: 0;
   height: 0;
-  border-bottom: 1.3rem solid #10101a;
+  border-bottom: 1.3rem solid #000000;
   border-left: 1.3rem solid transparent;
 }
