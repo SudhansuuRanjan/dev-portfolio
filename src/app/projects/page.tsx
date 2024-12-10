@@ -54,6 +54,16 @@ export default function Home(): React.JSX.Element {
     const projects = [
         {
             id: "01",
+            title: 'RETINA 7.0',
+            desc: 'Official event and admin portal for RETINA 7.0, the annual cultural fest of AIIMS Bhopal.',
+            img: '/images/retina-aiims.jpg',
+            link: 'https://retinaaiims.org/',
+            tags: ['ReactJs', 'NodeJs', 'Express', 'Postgres', 'SabPaisa'],
+            github: 'https://github.com/SudhansuuRanjan/retina2024',
+            readme: 'https://github.com/SudhansuuRanjan/retina2024#readme',
+        },
+        {
+            id: "01",
             title: 'KAIZEN 2024',
             desc: 'Official event and admin portal for KAIZEN 2024, the annual cultural fest of AIIMS Patna.',
             img: '/images/Kaizen-banner.jpg',
