@@ -117,7 +117,7 @@ export default function Home(): React.JSX.Element {
             title: 'CESC NITP',
             desc: "A website for the American Society of Civil Engineers Student Chapter of NIT Patna.",
             img: '/images/cesc.png',
-            link: 'http://cescofficialweb.vercel.app/',
+            link: 'https://asce-nitp.vercel.app/',
             tags: ['REACTJS', 'SCSS', "SANITY CMS"],
             github: 'https://github.com/SudhansuuRanjan/cescofficialweb',
             readme: 'https://github.com/SudhansuuRanjan/cescofficialweb#readme',
