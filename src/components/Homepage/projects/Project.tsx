@@ -17,7 +17,17 @@ const Project = (): React.JSX.Element => {
       readme: 'https://github.com/SudhansuuRanjan/retina2024#readme',
     },
     {
-      id: "02",
+            id: "02",
+            title: 'ClipSync',
+            desc: 'A web app for syncing clipboard across devices.',
+            img: '/images/desktop.png',
+            link: 'https://clipsync.pages.dev/',
+            tags: ['ReactJs', 'Postgres', 'Supabase Realtime'],
+            github: 'https://github.com/SudhansuuRanjan/clipsync',
+            readme: 'https://github.com/SudhansuuRanjan/clipsync#readme',
+    },
+    {
+      id: "03",
       title: 'KAIZEN 2024',
       desc: 'Official event and admin portal for KAIZEN 2024, the annual cultural fest of AIIMS Patna.',
       img: '/images/Kaizen-banner.jpg',
@@ -27,7 +37,7 @@ const Project = (): React.JSX.Element => {
       readme: 'https://github.com/SudhansuuRanjan/kaizen2024#readme',
     },
     {
-      id: "03",
+      id: "04",
       title: 'NIT Patna, Alumni Portal',
       desc: 'Official Alumni Portal for NIT Patna, One-stop portal for alumni of the NIT Patna.',
       img: '/images/alumni-nitp.jpg',
@@ -37,7 +47,7 @@ const Project = (): React.JSX.Element => {
       readme: 'https://github.com/Rishabh-25-code/alumini-cell-nitp#readme',
     },
     {
-      id: "04",
+      id: "05",
       title: 'MixMe',
       desc: 'A spotify client for users to view their Spotify listening history and statistics.',
       img: '/images/spotistat.png',
@@ -47,7 +57,7 @@ const Project = (): React.JSX.Element => {
       readme: 'https://wiki.mutable.ai/SudhansuuRanjan/mix.me',
     },
     {
-      id: "05",
+      id: "06",
       title: 'Tesla NITP',
       desc: 'Official website of Tesla Club NIT Patna, A club for Electrical Engg. students.',
       img: '/images/tesla.jpg',
