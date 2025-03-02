@@ -63,7 +63,17 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/SudhansuuRanjan/retina2024#readme',
         },
         {
-            id: "01",
+            id: "02",
+            title: 'ClipSync',
+            desc: 'A web app for syncing clipboard across devices.',
+            img: '/images/desktop.png',
+            link: 'https://clipsync.pages.dev/',
+            tags: ['ReactJs', 'Postgres', 'Supabase Realtime'],
+            github: 'https://github.com/SudhansuuRanjan/clipsync',
+            readme: 'https://github.com/SudhansuuRanjan/clipsync#readme',
+        },
+        {
+            id: "03",
             title: 'KAIZEN 2024',
             desc: 'Official event and admin portal for KAIZEN 2024, the annual cultural fest of AIIMS Patna.',
             img: '/images/Kaizen-banner.jpg',
@@ -73,7 +83,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/SudhansuuRanjan/kaizen2024#readme',
         },
         {
-            id: "02",
+            id: "04",
             title: 'NIT Patna, Alumni Portal',
             desc: 'Official Alumni Portal for NIT Patna, One-stop portal for alumni of the NIT Patna.',
             img: '/images/alumni-nitp.jpg',
@@ -83,7 +93,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/Rishabh-25-code/alumini-cell-nitp#readme',
         },
         {
-            id: "03",
+            id: "05",
             title: 'MixMe',
             desc: 'A spotify client for users to view their Spotify listening history and statistics.',
             img: '/images/spotistat.png',
@@ -93,7 +103,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://wiki.mutable.ai/SudhansuuRanjan/mix.me',
         },
         {
-            id: "04",
+            id: "06",
             title: 'Tesla NITP',
             desc: 'Official website of Tesla Club NIT Patna, A club for Electrical Engg. students.',
             img: '/images/tesla.jpg',
@@ -103,7 +113,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/SudhansuuRanjan/tesla-nitp-web#readme',
         },
         {
-            id: "05",
+            id: "07",
             title: 'Express Bills',
             desc: 'A free web app for generating bills for your business.',
             img: '/images/express_bill.jpg',
@@ -113,7 +123,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/SudhansuuRanjan/express-bill#readme',
         },
         {
-            id: "06",
+            id: "08",
             title: 'CESC NITP',
             desc: "A website for the American Society of Civil Engineers Student Chapter of NIT Patna.",
             img: '/images/cesc.png',
@@ -123,7 +133,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/SudhansuuRanjan/cescofficialweb#readme',
         },
         {
-            id: "07",
+            id: "09",
             title: 'MY PORTFOLIO',
             desc: "My portfolio website built with NextJS and TailwindCSS.",
             img: '/images/portfolio.png',
@@ -133,7 +143,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/SudhansuuRanjan/dev-portfolio#readme',
         },
         {
-            id: "08",
+            id: "10",
             title: 'ROBOTICS CLUB NITP',
             desc: "Official website of Robotics Club NIT Patna. It is a platform for the students to connect with the club.",
             img: '/images/robotics.png',
@@ -143,7 +153,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/Robotics-Club-NIT-Patna/roboticsclubnitpweb#readme',
         },
         {
-            id: "09",
+            id: "11",
             title: 'ANGELFACE',
             desc: 'Is is an UI design built for web3 peeps who want to get started in web3 frontend and are looking for projects to get inspired to build on.',
             img: '/images/angelface.png',
@@ -153,7 +163,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/SudhansuuRanjan/angelhack-project#readme',
         },
         {
-            id: "10",
+            id: "12",
             title: 'CAMPUS CRATE',
             desc: 'A (DAO) expertly designed to cultivate and expedite the ecosystem projects and ideas in the campuses.',
             img: '/images/campuscrate.png',
@@ -163,7 +173,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/Harshkumar62367/CampusCrate#readme',
         },
         {
-            id: "11",
+            id: "13",
             title: 'TRUST MARKET',
             desc: "A decentralized marketplace for datasets, where data providers can sell their data and data consumers can buy them.",
             img: '/images/trustmarket.png',
@@ -173,7 +183,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/SudhansuuRanjan/TrustMarket#readme',
         },
         {
-            id: "12",
+            id: "14",
             title: 'HACKNITP 4.0',
             desc: "Official website of HackNITP 4.0. It is a 36-hour online hackaton and the biggest hackathon of Bihar Region.",
             img: '/images/hacknitp.png',
@@ -183,7 +193,7 @@ export default function Home(): React.JSX.Element {
             readme: 'https://github.com/pratik8696/hacknitp4.0#readme',
         },
         {
-            id: "13",
+            id: "15",
             title: 'HACKARUTO',
             desc: "A website for the Hackaruto. It is an opensource hackclub.",
             img: '/images/hackaruto.png',
