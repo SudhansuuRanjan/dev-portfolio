@@ -66,7 +66,7 @@ export default function Home(): React.JSX.Element {
             id: "02",
             title: 'ClipSync',
             desc: 'A web app for syncing clipboard across devices.',
-            img: '/images/desktop.png',
+            img: '/images/clipsync.jpg',
             link: 'https://clipsync.pages.dev/',
             tags: ['ReactJs', 'Postgres', 'Supabase Realtime'],
             github: 'https://github.com/SudhansuuRanjan/clipsync',
